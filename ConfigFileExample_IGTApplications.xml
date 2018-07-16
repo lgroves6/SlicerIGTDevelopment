@@ -73,7 +73,8 @@
   </DataCollection>
 
   <CoordinateDefinitions>
-    <!-- Dummy calibration for the ultrasound probe. Replace this matrix with your calibration transformation matrix.   -->
+    <!-- For ultrasound probe calibration: leave this matrix as identity. Through your calibration process you will obtain the proper transform matrix. 
+         For IGT applications: replace this matrix with your acquired calibration transformation matrix.   -->
     <!-- Note: The system automatically converts this naming structure to "ImageToProbe". This is true for all transformaitons in this file. -->
     <Transform From="Image" To="Probe"
       Matrix="
