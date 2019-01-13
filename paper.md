@@ -29,15 +29,27 @@ This paper presents an overview of a blog (http://computerassistedsurgery.robart
 
 There is a plethora of various resources pertaining to 3D Slicer and the Plus ToolKit. However, there is a lack of an educational platform, for beginner developers, that consolidates information on the development of a 3D Slicer module that interacts with the PlusServer through the Plus Toolkit and other pre-existing IGT modules. Our objective is to bring together and present key concepts in 3D Slicer module development with a focus on image-guided interventions in a simple way. Ultimately, our goal is to reduce the learning curve for IGT module development with 3D Slicer for beginners.
 
-# Learning Objectives 
+# Summary of Module Contents 
 The following subjects are covered in detail within the learning-module. 
-1. 3D Slicer Architecture
-  * MRML Scenes: In 3D Slicer, the MRML scene can be thought of as the workspace, consisting of everything that you interact with, including streaming data, segmentations, models, view layout, etc. In addition, the scene can include components that are not directly visualized.
-  * Widgets: These are the building blocks or individual components of the graphic user interface in a 3D Slicer module. 
-  * Logic: The logic controls the bulk of the processing of any application, will respond to input from the GUI and control the MRML nodes and the view.
+1. 3D Slicer Architecture:
+    * MRML Scenes: In 3D Slicer, the MRML scene can be thought of as the workspace, consisting of everything that you interact with, including streaming data, segmentations, models, view layout, etc. In addition, the scene can include components that are not directly visualized.
+    * Widgets: These are the building blocks or individual components of the graphic user interface in a 3D Slicer module. 
+    * Logic: The logic controls the bulk of the processing of any application, will respond to input from the GUI and control the MRML nodes and the view.
   
-(2)IGT Module Development:
-*
+2. IGT Module Development:
+    * Slicer Components: This covers the definition of 3D Slicer module types, 3D Slicer exentions, and the SlicerIGT extension. 
+    * PlusServer Components: This covers an explination of the PlusServer and the OpenIGTLinkIF module for broadcasting and reciving data.
+    * This section also illustrated the specific steps required to stream images and tracking data into 3D slicer using the afforementioned components. 
+    
+3. Examples and Demostrations:
+* This section provides detailed examples and demonstrations on the following topics:
+    * SlicerIGT extension installation 
+    * PlusServer Configuration file creation 
+    * Calibration of ultrasound probe and tracked tools 
+
+4. Create your own module: 
+    * Development modes: This section contains a description of two methods to develop a module in 3D Slicer, their respective advantages, and associated sample code. 
+    * 
 
 how to create a configuration file for the PlusServer, (3) how to perform basic tool calibrations, (4) how to create a scripted module with basic IGT functionality, and (5) how to make their module public.
 
