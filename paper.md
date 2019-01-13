@@ -37,17 +37,17 @@ The following subjects are covered in detail within the learning-module.
     * Logic: The logic controls the bulk of the processing of any application, will respond to input from the GUI and control the MRML nodes and the view.
   
 2. IGT Module Development:
-    * Slicer Components: This covers the definition of 3D Slicer module types, 3D Slicer exentions, and the SlicerIGT extension. 
-    * PlusServer Components: This covers an explination of the PlusServer and the OpenIGTLinkIF module for broadcasting and reciving data.
-    * This section also illustrated the specific steps required to stream images and tracking data into 3D slicer using the afforementioned components. 
+    * Slicer Components: This covers the definition of 3D Slicer module types, 3D Slicer extensions, and the SlicerIGT extension. 
+    * PlusServer Components: This covers an explanation of the PlusServer and the OpenIGTLinkIF module for broadcasting and receiving data.
+    * This section also illustrated the specific steps required to stream images and tracking data into 3D slicer using the aforementioned components. 
     
-3. Examples and Demostrations:
+3. Examples and Demonstrations:
     * SlicerIGT extension installation 
     * PlusServer Configuration file creation 
     * Calibration of ultrasound probe and tracked tools 
 
 4. Create your own module: 
     * Development modes: This section contains a description of two methods to develop a module in 3D Slicer, their respective advantages, and associated sample code. 
-    * Create a module: This section explains the steps required to generate the neccessary files for the creation of a module. 
+    * Create a module: This section explains the steps required to generate the necessary files for the creation of a module. 
     * Add module to an extension: This section explains the steps required to make a module publically available.
 
