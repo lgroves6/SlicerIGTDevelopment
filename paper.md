@@ -32,9 +32,9 @@ There is a plethora of various resources pertaining to 3D Slicer and the Plus To
 # Learning Objectives 
 The following subjects are covered in detail within the learning-module. 
 (1) 3D Slicer Architecture
-*MRML Scenes: In 3D Slicer, the MRML scene can be thought of as the workspace, consisting of everything that you interact with, including streaming data, segmentations, models, view layout, etc. In addition, the scene can include components that are not directly visualized.
-*Widgets: These are the building blocks or individual components of the graphic user interface in a 3D Slicer module. 
-*Logic: The logic controls the bulk of the processing of any application, will respond to input from the GUI and control the MRML nodes and the view.
+* MRML Scenes: In 3D Slicer, the MRML scene can be thought of as the workspace, consisting of everything that you interact with, including streaming data, segmentations, models, view layout, etc. In addition, the scene can include components that are not directly visualized.
+* Widgets: These are the building blocks or individual components of the graphic user interface in a 3D Slicer module. 
+* Logic: The logic controls the bulk of the processing of any application, will respond to input from the GUI and control the MRML nodes and the view.
 (2)IGT Module Development:
 *
 
