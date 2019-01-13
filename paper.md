@@ -42,14 +42,12 @@ The following subjects are covered in detail within the learning-module.
     * This section also illustrated the specific steps required to stream images and tracking data into 3D slicer using the afforementioned components. 
     
 3. Examples and Demostrations:
-This section provides detailed examples and demonstrations on the following topics:
     * SlicerIGT extension installation 
     * PlusServer Configuration file creation 
     * Calibration of ultrasound probe and tracked tools 
 
 4. Create your own module: 
     * Development modes: This section contains a description of two methods to develop a module in 3D Slicer, their respective advantages, and associated sample code. 
-    * 
-
-how to create a configuration file for the PlusServer, (3) how to perform basic tool calibrations, (4) how to create a scripted module with basic IGT functionality, and (5) how to make their module public.
+    * Create a module: This section explains the steps required to generate the neccessary files for the creation of a module. 
+    * Add module to an extension: This section explains the steps required to make a module publically available.
 
