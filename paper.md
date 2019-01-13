@@ -42,7 +42,7 @@ The following subjects are covered in detail within the learning-module.
     * This section also illustrated the specific steps required to stream images and tracking data into 3D slicer using the afforementioned components. 
     
 3. Examples and Demostrations:
-* This section provides detailed examples and demonstrations on the following topics:
+This section provides detailed examples and demonstrations on the following topics:
     * SlicerIGT extension installation 
     * PlusServer Configuration file creation 
     * Calibration of ultrasound probe and tracked tools 
